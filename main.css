@@ -1,0 +1,33 @@
+html {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	font-size: normal;
+}
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	color: navy;
+	font-size: 180%;
+	text-transform: capitalize;
+}
+
+.mainButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.mainButton button {
+	padding: 10px 45px;
+	border-radius: 4px;
+	background-color: rebeccapurple;
+	border: 1px solid red;
+	color: white;
+	font-size: 30px;
+}
